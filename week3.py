@@ -17,7 +17,7 @@ try:
     
     # Calculate and display final price
     final_price = calculate_discount(price, discount_percent)
-    print(f"Final price after discount (if applicable): ${final_price:.2f}")
+    print(f"Final price after discount : ${final_price:.2f}")
 except ValueError:
     print("Please enter valid numerical values.")
 
